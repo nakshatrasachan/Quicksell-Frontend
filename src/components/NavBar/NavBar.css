@@ -1,0 +1,33 @@
+.btn{
+    background:  #d1d1df;;
+    border: 2px solid silver;
+    border-radius: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.selectGroup{
+    padding: 3px;
+}
+
+.dButton{
+    position: relative;
+}
+
+.dropClick{
+    position: absolute;
+    width: 250px;
+    background-color: #d7d7df;
+    border-radius: 12px;
+    margin-top: 12px;
+    z-index: 10;
+}
+
+.dropClick > *{
+    width: 100%;
+}
+
+.selectStyle{
+    width: 120px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+}
